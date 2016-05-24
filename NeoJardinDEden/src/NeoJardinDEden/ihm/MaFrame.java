@@ -10,7 +10,7 @@ public class MaFrame {
 	
 	public MaFrame(String nomDeFrame,int x,int y){
 	    fenetre = new JFrame();
-	    JPanel pan = new MonPanel("MEUH",200,200, Color.BLACK);
+	    JPanel pan = new MonPanel("MEUH",x, y);
 
 	    fenetre.getContentPane().setLayout(new GridLayout(0,1));
 	    fenetre.getContentPane().add(pan);                    

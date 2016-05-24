@@ -17,7 +17,7 @@ public class JardinDEdenControleur {
     	monJardin = new Jardin(7,7);
     	monJardinier1 = new Jardinier("Pedro");
 		maConsole = new JardinDEdenConsole();
-		petiteFrame = new MaFrame("Neo Jardin SWAG du TERTER !!!!",500,500);
+		petiteFrame = new MaFrame("Neo Jardin SWAG du TERTER !!!!",800,800);
 		
     }
 	public void Start(){
